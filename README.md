@@ -51,9 +51,17 @@ nrf-mi   = rpi-miso       (21)
 
 known issues
 ============
-none
+`#include <unistd.h>` --> sleep(1) error
+
+Makefile in examples
+add .cpp and then `make`
+
+Compile new .cpp
+
+/examples/test.cpp to connect with arduino
+
 
 contact
 =======
-Charles-Henri Hallard http://hallard.me
+Judlup@gmail.com
 

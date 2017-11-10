@@ -40,13 +40,21 @@ RF24 radio(RPI_V2_GPIO_P1_15, RPI_V2_GPIO_P1_26, BCM2835_SPI_SPEED_8MHZ);
 
 
 Pin are
-NRF24L01    RPI       P1 Connector
+
+NRF24L01    RPI       P1 Connector 
+
 nrf-vcc  = rpi-3v3        (01)
+
 nrf-gnd  = rpi-gnd        (06)
-nrf-ce   = rpi-ce1        (26)
+
+nrf-ce   = rpi-ce1        (24)
+
 nrf-csn  = rpi-gpio22     (15)
+
 nrf-sck  = rpi-sckl       (23)
+
 nrf-mo   = rpi-mosi       (19)
+
 nrf-mi   = rpi-miso       (21)
 
 known issues
@@ -63,5 +71,8 @@ Compile new .cpp
 
 contact
 =======
+
+[@judlup](http://twitter.com/judlup)
+
 Judlup@gmail.com
 

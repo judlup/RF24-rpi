@@ -68,6 +68,8 @@ Compile new .cpp
 
 /examples/test.cpp to connect with arduino
 
+/examples/send_arduino.ino 
+
 
 contact
 =======

@@ -15,7 +15,7 @@
 PREFIX = /usr/local
 CCFLAGS = -Ofast -mfpu=vfp -mfloat-abi=hard -march=armv6zk -mtune=arm1176jzf-s
 
-PROGRAMS = rpi-hub scanner pingtest pongtest
+PROGRAMS = test rpi-hub scanner pingtest pongtest
 SOURCES = ${PROGRAMS:=.cpp}
 
 all: ${PROGRAMS}
